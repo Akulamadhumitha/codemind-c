@@ -8,14 +8,11 @@ int main()
     {
         scanf("%d",&arr[i]);
     }
-    int count=0;
+    int c=0;
     for(i=0;i<n;i++)
     {
-        if(arr[i]%2==0){
-		 count++;
+        if(arr[i]%2==0) c++;
     }
-    }
-    if(count==n) printf("True");
+    if(c==n) printf("True");
     else printf("False");
-
 }
